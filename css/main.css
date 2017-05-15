@@ -83,6 +83,7 @@ body {
       max-width: 1172px;
       text-align: center;
       margin: auto;
+      position: relative;
 }
 .ecosystem-card {
       font-size: 14px;
@@ -172,9 +173,39 @@ body {
       background : #7d7d7d url(../img/arrow.png) no-repeat 50% 50%;
       padding: 0;
 }
+.flex-control-nav {
+  position: absolute;
+  right: -1.5%;
+  bottom: 50%;
+  text-align: center;
+}
 .flex-control-nav li {
-      position: absolute;
-      display: block;
-      right:  0;
-      margin-right:  -10px;
+  margin: 6px 0;
+  display: block;
+  zoom: 1;
+ }
+.flex-control-paging li a {
+  width: 11px;
+  height: 11px;
+  display: block;
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.flex-control-paging li a:hover {
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+}
+.flex-control-paging li a.flex-active {
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+  cursor: default;
 }

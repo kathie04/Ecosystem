@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'valentinaregular';
+    src: url('../fonts/valentina-regular-webfont.woff2') format('woff2'),
+           url('../fonts/Valentina-Regular.ttf.woff') format('woff'),
+           url('../fonts/Valentina-Regular.ttf.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+      background: #eaeaea;
+       font-family: Verdana, sans-serif;
+}
+
+.clearfix: after {
+      content:' ';
+      clear: both;
+      display: table;
+}
+.ecosystem {
+      max-width: 1316px;
+      margin: auto;
+}
+.ecosystem a {
+      text-decoration: none;
+}
+.ecosystem {
+  padding: 40px 0;
+}
+.ecosystem-logo {
+      float: left;
+      font-size: 39px;
+      color: #303030;
+      font-weight: bold;
+      margin-top: -13px;
+}
+.ecosystem-button {
+      float: right;
+      background-color: #757575;
+      color: #eaeaea;
+      padding: 10px 20px;
+      font-size: 22px;
+      margin-top: -8px;
+      border-radius: 30px;
+}
+.ecosystem-nav,
+.ecosystem-nav li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+}
+.ecosystem-nav {
+      text-align: center;
+      font-size: 0;
+}
+.ecosystem-nav li {
+      color: rgb(84, 84, 84);
+      display: inline-block;
+      font-size: 22px;
+}
+.ecosystem-nav a {
+      display: block;
+      padding: 0 21px;
+      color: #545454;
+}
+.ecosystem-headline {
+      color: black;
+      font-size: 54px;
+      text-align: center;
+      font-family: 'valentinaregular';
+      margin-top: 80px;
+      margin-bottom: 20px;
+}
+.ecosystem > p {
+      color: #545454;
+      font-size: 22px;
+      text-align: center;
+      line-height: 1.63;
+      margin-bottom: 0;
+      max-width: 65.5%;
+      padding: 0 233px;
+}
+.ecosystem-carousel {
+      max-width: 1172px;
+      text-align: center;
+      margin: auto;
+}
+.ecosystem-card {
+      font-size: 14px;
+      display: inline-block;
+      width: 22.5%;
+      padding: 332px 3.6% 3.6% 3.6%;
+      background-color: #ffffff;
+      background-repeat: no-repeat;
+      background-size: 80% auto;
+      background-position: 80% 0;
+      border-radius: 10px;
+      margin: 45px 15px 70px 15px;
+      position: relative;
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, .4);
+      transition: bow-shadow .1s ease-in, background-size .4 ease;
+}
+.ecosystem-card:nth-child(1) {
+      background-color: #bed7d4;
+}
+.ecosystem-card:nth-child(3) {
+      background-color: #d2d0cb;
+}
+
+.ecosystem-carousel ul,
+.ecosystem-carousel li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+}
+.ecosystem-carousel li {
+      font-size: 0;
+}
+.ecosystem-card:hover{
+      box-shadow: 0px 20px 60px 20px rgba(0, 0, 0, .4);
+      z-index: 1;
+      background-size: 100% auto;
+}
+.ecosystem-card-subtitle {
+      color: #5a6261;
+      font-size: 10px;
+}
+.ecosystem-card-title {
+      font-family: 'valentinaregular';
+      color: black;
+      font-size: 28px;
+      margin: 0;
+}
+.ecosystem-carousel p{
+      margin-top: 15px;
+      color: #545454;
+      font-size: 18px;
+      margin-bottom: 26px;
+}
+.ecosystem-card-button {
+      text-transform: uppercase;
+      font-size: 16px;
+      margin-top: 0;
+      width: 100%;
+      padding: 15px 0;
+      background-color: #303030;
+}
+.ecosystem-footer {
+      margin-top: 20px;
+}
+.ecosystem-available {
+      color: #545454;
+      font-size: 22px;
+      float: left;
+      margin-right: 435px;
+ }
+ .ecosystem-apple:before {
+      content: url(../img/apple-logo.png);
+ }
+ .ecosystem-arrow {
+      float: left;
+      background: #eaeaea url(../img/arrow-down.png) no-repeat;
+      margin-right: 435px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+.ecosystem-download {
+      float: right;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background : #7d7d7d url(../img/arrow.png) no-repeat 50% 50%;
+      padding: 0;
+}
+.flex-control-nav li {
+      position: absolute;
+      display: block;
+      right:  0;
+      margin-right:  -10px;
+}

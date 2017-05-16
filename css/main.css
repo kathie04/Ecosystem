@@ -92,8 +92,8 @@ body {
       padding: 332px 3.6% 3.6% 3.6%;
       background-color: #ffffff;
       background-repeat: no-repeat;
-      background-size: 80% auto;
-      background-position: 80% 0;
+      background-size: 100% auto;
+      background-position: 60px -40%;
       border-radius: 10px;
       margin: 45px 15px 70px 15px;
       position: relative;
@@ -102,9 +102,11 @@ body {
 }
 .ecosystem-card:nth-child(1) {
       background-color: #bed7d4;
+      background-position: 80% 20%;
 }
 .ecosystem-card:nth-child(3) {
       background-color: #d2d0cb;
+      background-position: 80% 0;
 }
 
 .ecosystem-carousel ul,
@@ -119,11 +121,12 @@ body {
 .ecosystem-card:hover{
       box-shadow: 0px 20px 60px 20px rgba(0, 0, 0, .4);
       z-index: 1;
-      background-size: 100% auto;
+      background-size: 110% auto;
 }
 .ecosystem-card-subtitle {
       color: #5a6261;
       font-size: 10px;
+      text-transform: uppercase;
 }
 .ecosystem-card-title {
       font-family: 'valentinaregular';
@@ -152,18 +155,18 @@ body {
       color: #545454;
       font-size: 22px;
       float: left;
-      margin-right: 435px;
+      display: inline-block;
  }
  .ecosystem-apple:before {
       content: url(../img/apple-logo.png);
  }
  .ecosystem-arrow {
-      float: left;
       background: #eaeaea url(../img/arrow-down.png) no-repeat;
-      margin-right: 435px;
+      margin-left: 33%;
       width: 30px;
       height: 30px;
       cursor: pointer;
+      display: inline-block;
     }
 .ecosystem-download {
       float: right;
@@ -175,12 +178,12 @@ body {
 }
 .flex-control-nav {
   position: absolute;
-  right: -1.5%;
+  right: -.1%;
   bottom: 50%;
   text-align: center;
 }
 .flex-control-nav li {
-  margin: 6px 0;
+  margin: 20px 0;
   display: block;
   zoom: 1;
  }
